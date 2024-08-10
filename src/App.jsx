@@ -3,7 +3,7 @@ import Search from "./components/search/search.jsx";
 import CurrentWeather from "./components/current-weather/current-weather.jsx";
 import { WEATHER_API_URL, WEATHER_API_KEY } from "./api.js";
 import { useState } from "react";
-import Forecast from "./components/forecast/forecast.jsx";
+import Forecast from "./components/forecast/Forecast.jsx";
 
 function App() {
     const initWeatherData = {
